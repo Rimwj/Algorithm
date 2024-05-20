@@ -1,1 +1,26 @@
 # Algorithm
+
+목록
+- 해시
+- 스택/큐
+- 힙
+- 정렬
+- 완전탐색
+- 탐욕법
+- 동적계획법
+- 깊이/너비 우선 탐색
+- 이분탐색
+- 그래프
+
+
+## 1주차
+### 해시 - 폰켓몬
+https://school.programmers.co.kr/learn/courses/30/lessons/1845
+
+## 2주차
+### 스택/큐 - 같은 숫자는 싫어
+https://school.programmers.co.kr/learn/courses/30/lessons/12906
+
+## 3주차
+### 완전탐색 - 최소 직사각형
+https://school.programmers.co.kr/learn/courses/30/lessons/86491
