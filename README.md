@@ -12,15 +12,16 @@
 - 이분탐색
 - 그래프
 
+<br/>
 
 ## 1주차
-### 해시 - 폰켓몬
+#### 해시 - 폰켓몬
 https://school.programmers.co.kr/learn/courses/30/lessons/1845
-
+<br/><br/><br/>
 ## 2주차
-### 스택/큐 - 같은 숫자는 싫어
+#### 스택/큐 - 같은 숫자는 싫어
 https://school.programmers.co.kr/learn/courses/30/lessons/12906
-
+<br/><br/><br/>
 ## 3주차
-### 완전탐색 - 최소 직사각형
+#### 완전탐색 - 최소 직사각형
 https://school.programmers.co.kr/learn/courses/30/lessons/86491
