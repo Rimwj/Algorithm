@@ -25,3 +25,12 @@ https://school.programmers.co.kr/learn/courses/30/lessons/12906
 ## 3주차
 #### 완전탐색 - 최소 직사각형
 https://school.programmers.co.kr/learn/courses/30/lessons/86491
+<br/><br/><br/>
+## 4주차
+#### 정렬 - K 번째 수
+https://school.programmers.co.kr/learn/courses/30/lessons/42748
+<br/><br/><br/>
+## 5주차
+#### 탐욕법 - 체육
+https://school.programmers.co.kr/learn/courses/30/lessons/42862
+
