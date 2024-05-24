@@ -1,0 +1,13 @@
+function solution(array, commands) {
+    var answer = [];
+    commands.forEach(function(x) {
+        var startIndex = x[0] - 1;
+        var endIndex = x[1];
+        var valueIndex = x[2] - 1;
+        var newArr = array.slice(startIndex, endIndex);
+        var sortArr = newArr.sort((a, b) => a - b);
+        var value = sortArr[valueIndex];
+        answer.push(value)
+    })
+    return answer;
+}
