@@ -1,0 +1,14 @@
+function solution(array, commands) {
+var answer = [];
+    
+    for(var i=0; i < commands.length; i++){ 
+    
+        var c1 = commands[i][0] -1;
+        var c2 = commands[i][1];
+        var c3 = commands[i][2] -1;
+        var newArr = [...array.slice(c1,c2)].sort((a, b) => a - b);
+        answer.push(newArr[c3]);
+    }
+    
+    return answer;
+}
