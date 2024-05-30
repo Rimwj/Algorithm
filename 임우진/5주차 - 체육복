@@ -1,0 +1,27 @@
+function solution(n, lost, reserve) {
+    var answer = n;
+    var arr = Array.from({length:n+2}, () => 0);
+    lost = lost.sort();
+    reserve.forEach(element => {
+        arr[element] = 1;
+    })
+    for(let i = 0; i < lost.length; i++){
+        if(arr[lost[i]] == 1){
+            arr[lost[i]] = 0;
+            lost[i] = 0;
+        }
+    }
+    for(const element of lost){
+        if(element == 0) continue;
+        if(arr[element-1] == 1){
+            arr[element-1] = 0;
+        }
+        else if(arr[element+1] == 1){
+            arr[element+1] = 0; 
+        }
+        else{
+            answer--;
+        }
+    }
+    return answer;
+}
