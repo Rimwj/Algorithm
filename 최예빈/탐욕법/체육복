@@ -1,0 +1,28 @@
+function solution(n, lost, reserve) {
+    
+    var others = n - new Set([...lost, ...reserve]).size;
+    var canHelp = new Set();
+    var needHelp = new Set();
+    
+    reserve.forEach(x => {
+        var before = x - 1;
+        var next = x + 1;
+        canHelp.add(before);
+        canHelp.add(next);
+    })
+    
+    lost.forEach(x => {
+        var before = x - 1;
+        var next = x + 1;
+        needHelp.add(before);
+        needHelp.add(next);
+    })
+    
+    var intersect = new Set([...canHelp].filter(x => needHelp.has(x)));
+    
+    console.log(intersect);
+    
+    if(canHelp.size - needHelp.size == 0) return others + reserve.length * 2;
+    else if(Math.abs(canHelp.size - needHelp.size) == 1) return others + reserve.length + 1;
+   
+}
